@@ -2,14 +2,15 @@
 markdown:         redcarpet
 highlighter:      pygments
 
+gems: [jekyll-paginate, jekyll-gist]
+
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Coderashed
+tagline:          'Coderashed'
+description:      'Learning my lesson one rash at a time.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 

@@ -3,35 +3,21 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<h1>Welcome!</h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<p>
+This is Coderashed. Too long have blogs taught how to write code! Join me as we instead step through the software <b>discovery</b> process. In doing so we will discover how the software <b>wants</b> to be written instead of how we want to write it!
+</p>
+<h2>Goal Outline</h2>
+<p>
+Beginning first with a step that most unfortunately skip, we will gather an understanding of the interface that we are working with, in this case PHP, and how it interacts with the various interfaces of the operating system. From there, we will gather 
+an understanding of what it is our software actually has to accomplish. We will then develop the unit tests that will be the proofs of our application and tie them into a build package for all revisions. Finally, we will begin developing our code 
+and running it against our previously defined unit tests.
+</p>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+<p>
+We will begin with a core system. With that in place we will proceed to build various sub-systems that will work on top of it. What we will end up with is a pseudo-bulletproof extremely flexible application that works exactly as we would expect. As we make 
+modifications, we will be able to regression test against previous builds by once again running the unit tests against the build.
+</p>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<p>I hope that this blog is enlightening, and please feel free to send comments and suggestions.</p>
