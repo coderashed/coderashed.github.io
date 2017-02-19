@@ -11,12 +11,12 @@ permalink:        pretty
 title:            Coderashed
 tagline:          'Coderashed'
 description:      'Learning my lesson one rash at a time.'
-url:              http://hyde.getpoole.com
+url:              http://coderashed.github.io
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Steven Shurtliff'
+  url:            https://twitter.com/coderash
 
 paginate:         5
 
@@ -24,4 +24,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/coderashed
