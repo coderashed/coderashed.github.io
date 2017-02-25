@@ -1,7 +1,7 @@
 <h1>What are we working with?</h1>
 
 <p>
-This step is almost always skipped, but by building an understanding of our interface (PHP) before we get started we are learning the following 
+This step is almost always skipped, but by building an understanding of our interface (language) before we get started we are learning the following 
 very important things:
 </p>
 * Which methods our interface has of informing us of problems.
@@ -52,8 +52,11 @@ how do we do this...?
 <p>
 We may not know <b>how</b> we are going to solve our problem yet, but we have identified <b>what</b> the solution to the problem is. Let's lay it out:
 </p>
-* We want to be able to catch PHP notices and warnings in the form of an <a href="http://php.net/manual/en/class.exception.php">Exception</a> object.
-* To be able to tell them apart, we will call them PHPError objects and they will extend Exception.
-* We will do the same to be able to tell our most common errors apart as well (PHPNotice,PHPWarning)
+* We want to be able to catch PHP messages as they occur.
+* We want it to be impossible to ignore the above messages. After all, they mean something.
+* We want to be able to pick and choose what kinds of messages we care about at a given time.
 
-Now that we know what we want to accomplish, we begin our discovery process for <b>how</b> we want to accomplish it. 
+<p>
+Now that we know what we want to accomplish, let us begin a discovery process and figure out what our options are. Afterwards we will know if the language chosen is 
+the right tool for the job.
+</p>
